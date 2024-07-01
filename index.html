@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>EurTech </title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/3b2cbe113a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://eurtech-react.vercel.app/assets/img/logo/logo.png" class="h-8" alt="Logo">
+      </a>
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">GET APPOINTMENT <i class="fa-solid fa-angle-right"></i></button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 font-extrabold" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700 font-extrabold">ABOUT</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700 font-extrabold">SERVICES +</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700 font-extrabold">BLOG +</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700 font-extrabold">PAGES +</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700 font-extrabold">CONTACT +</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <div class="container">
+    <div class="main-logo">
+      <img src="https://eurtech-react.vercel.app/assets/img/logo/logo.png" alt="EurTech logo">
+    </div>
+    <div class="contact-info">
+      <div class="call-us">
+        <img src="https://eurtech-react.vercel.app/assets/img/icon/header/header-icon-01.png" alt="Call us icon">
+        <span>Call Us Now</span>
+        <span><b>00 211 232 000</b></span>
+      </div>
+      <div class="email">
+        <img src="https://eurtech-react.vercel.app/assets/img/icon/header/header-icon-02.png" alt="Email icon">
+        <span>Email Address</span>
+        <span><b>info@wemail.com</b></span>
+      </div>
+      <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Get Appointment</button>
+    </div>
+  </div>
+
+
+  <div class="container-started">
+    <div class="row">
+      <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10">
+        <div class="hero__content"><span>We Provide Outsourced</span>
+          <h2 class="font-bold">IT Solution</h2>
+          <p>IT producers worldwide face similar challenges around animal welfare, farm profitability, product and work
+            efficiency.</p>
+            <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Get Started  <i class="fa-solid fa-angle-right"></i></button>
+            <div class="hero__btn-link">
+              <ul>
+                <li><span class="hero__video-btn popup-video"><i class="fa-solid fa-play"></i></span></li>
+              </ul>
+              <ul>
+                <li>
+                  <span class="intro-video">INTRO VIDEO</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container-about">
+    <div class="left-section">
+      <img src="img-1.jpg" height="100%" width="100%" alt="about-img">
+    </div>
+    <div class="right-section">
+      <div class="about-us">
+        <div class="about-us-text"> // About Us</div>
+      </div>
+      <div class="heading-about">
+        <div class="heading-text">Best in classy product
+          near from you.</div>
+      </div>
+      <div class="description">
+        <div class="description-text">From finance, retail, and travel, to social media, cybersecurity, adtech,
+          and more, market leaders are leveraging web data to maintain their
+          advantage. Discover how it can work for you.</div>
+      </div>
+      <div class="features">
+        <div class="features-text">Highest quality data, #01 network uptime, fastest
+          output. Unlimited scale and customizing possibilities.</div>
+      </div>
+      <div class="author">
+        <div class="author-text"><b> Miranda Helson, </b> Head Of Idea</div>
+      </div>
+      <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">LEARN MORE  <i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </div>
+
+  <div class="centerr">
+    <div class="container-division">
+      <div class="item">30
+        <div class="text">Year experience in this field</div>
+      </div>
+      <div class="item">696
+        <div class="text">Worldwide good clientse</div>
+      </div>
+      <div class="item">1200
+        <div class="text">Worldwide Captured online base</div>
+      </div>
+      <div class="item">5
+        <div class="text">Masterclass Team ever made</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="service-body">
+    <div class="container-service">
+      <h3 style="color: #2097f9;">// Service</h3>
+      <div style="margin-bottom: 10px;" class="c-head">What we do here
+        
+      </div>
+      <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-4 text-center me-2 mb-2">SERVICES  <i class="fa-solid fa-angle-right"></i></button>
+      <div class="cards-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="card">
+          <div class="icon">
+            <img src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-1.png" alt="SEO Icon">
+          </div>
+          <h3>SEO Monitoring</h3>
+          <p>The quality data, best network uptime, fastest output.</p>
+          <a href="#" class="read-more">// Read More</a>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-2.png" alt="Server Security Icon">
+          </div>
+          <h3>Server Security</h3>
+          <p>The quality data, best network uptime, fastest output.</p>
+          <a href="#" class="read-more">// Read More</a>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-3.png" alt="UX/UI Strategy Icon">
+          </div>
+          <h3>UX/UI Strategy</h3>
+          <p>The quality data, best network uptime, fastest output.</p>
+          <a href="#" class="read-more">// Read More</a>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="https://eurtech-react.vercel.app/assets/img/service/icon/service-icon-4.png" alt="Analysis Tools Icon">
+          </div>
+          <h3>Analysis Tools</h3>
+          <p>The quality data, best network uptime, fastest output.</p>
+          <a href="#" class="read-more">// Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="facts-container">
+    <div class="left-side">
+      <div class="facts">
+        // Some Facts
+      </div>
+      <h1 class="fact-head">The best customer experience</h1>
+      <div class="stats">
+        <p>Design & Servicing</p>
+        <div class="stat">
+          <div class="progress-bar">
+            <div class="fill" style="width: 64%"></div>
+          </div>
+          <span>64%</span>
+        </div>
+        <p>Support & Productivity</p>
+        <div class="stat">
+          <div class="progress-bar">
+            <div class="fill" style="width: 82%"></div>
+          </div>
+          <span>82%</span>
+        </div>
+        <p>Troubleshooting</p>
+        <div class="stat">
+          <div class="progress-bar">
+            <div class="fill" style="width: 70%"></div>
+          </div>
+          <span>70%</span>
+        </div>
+      </div>
+    </div>
+    <div class="right-side">
+      <img src="https://eurtech-react.vercel.app/assets/img/skill/skills-img.png" alt="Customer Experience Image">
+      <div class="play-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-play-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="input-services-container">
+    <div class="ser-name">// services // </div>
+    <div class="ser-head">What we do here</div>
+    <div class="parent">
+      <div class="input-field">
+        <span class="icon"><i class="fa-solid fa-envelope-open"></i></span>
+        <input type="email" placeholder="Email address">
+      </div>
+      <div class="input-field">
+        <span class="icon"><i class="fa-brands fa-firefox-browser"></i></span>
+        <input type="text" placeholder="Website Name">
+      </div>
+      <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-bold rounded-lg text-sm px-5 py-5 px-6 text-center me-2 mb-2">Test Speed  <i class="fa-solid fa-angle-right"></i></button>
+
+    </div>
+
+  </div>
+
+
+  <div class="case-study-container">
+    <h3 class="portfolio"> // portfolio </h3>
+    <h1 class="title3">Case Studies</h1>
+    <div class="card-container2">
+      <div class="card2">
+        <img src="https://eurtech-react.vercel.app/assets/img/portfolio/case/case-study-1.jpg" alt="Case Study 1">
+        <div class="overlay2">
+          <div class="text2">
+            <h2>Case Study 1</h2>
+            <p>Built and It system and random order. </p>
+            <a class="read-more" href="https://eurtech-react.vercel.app/case-details/1">
+              <p> Read More </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card2">
+        <img src="https://eurtech-react.vercel.app/assets/img/portfolio/case/case-study-2.jpg" alt="Case Study 1">
+        <div class="overlay2">
+          <div class="text2">
+            <h2>Case Study 1</h2>
+            <p>Description for Case Study 1.</p>
+            <a class="read-more" href="https://eurtech-react.vercel.app/case-details/1">
+              <p> Read More </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card2">
+        <img src="https://eurtech-react.vercel.app/assets/img/portfolio/case/case-study-3.jpg" alt="Case Study 1">
+        <div class="overlay2">
+          <div class="text2">
+            <h2>Case Study 1</h2>
+            <p>Description for Case Study 1.</p>
+            <a class="read-more" href="https://eurtech-react.vercel.app/case-details/1">
+              <p> Read More </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card2">
+        <img src="https://eurtech-react.vercel.app/assets/img/portfolio/case/case-study-4.jpg" alt="Case Study 1">
+        <div class="overlay2">
+          <div class="text2">
+            <h2>Case Study 1</h2>
+            <p>Description for Case Study 1.</p>
+            <a class="read-more" href="https://eurtech-react.vercel.app/case-details/1">
+              <p> Read More </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+  </div>
+
+  <div class="main-testimonial">
+    <div class="testi-title">
+      <div class="testimonials"> // Testimonials //</div>
+      <h1>User feedbacks</h1>
+    </div>
+    <div class="testi-container">
+      <div class="testi-content">
+        <div class="testi-card">
+          <p>"The worlds #1 web data platform from data collection infrastructure to ready-made datasets, brights tow
+            allow you to retrieve the public web data you care about."</p>
+          <div class="user">
+            <img src="https://eurtech-react.vercel.app/assets/img/testimonial/author/author-01.png"
+              alt="Miranda Helson">
+            <h4>Miranda Helson </h4>
+            <p> , Head Of Idea</p>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p>"The worlds #2 web data platform from data collection infrastructure to ready-made datasets, brights tow
+            allow you to retrieve the public web data you care about."</p>
+          <div class="user">
+            <img src="https://eurtech-react.vercel.app/assets/img/testimonial/author/author-02.png"
+              alt="Alexis D. Dowson">
+            <h4>Alexis D. Dowson</h4>
+            <p>, Founder</p>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p>"The worlds #3 web data platform from data collection infrastructure to ready-made datasets, brights tow
+            allow you to retrieve the public web data you care about."</p>
+          <div class="user">
+            <img src="https://eurtech-react.vercel.app/assets/img/testimonial/author/author-03.png" alt="Steven Smith">
+            <h4>Steven Smith</h4>
+            <p>, Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <h3 class="news"> // news </h3>
+  <h1 class="title4">News & Insights</h1>
+  <div class="container mx-auto p-4">
+    
+    <div class="news-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for other cards -->
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-02.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-03.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="https://eurtech-react.vercel.app/assets/img/news/1/thumb-01.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="centerr">
+    <div class="container-division">
+      <div class="main-newsl">
+        <div class="newsletter">
+          // newsletter
+        </div>
+        <div class="parent2">
+          <div class="user-feed">
+            User feedbacks
+          </div>
+          <div class="input-field">
+            <span class="icon"><i class="fa-solid fa-envelope-open"></i></span>
+            <input type="email" placeholder="Email address">
+          </div>
+          <div>
+            <a class="button-test" href="#">
+              NEWSLETTER
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-container py-8">
+    <div class="footer-section">
+      <h2>About Us</h2>
+      <p>Learn from industry-leading speakers like Romain Guy and Chet Haase who have been building Android since 1.0,
+        Jhey Tompkins and Una Kravets from the Google Chrome team.</p>
+    </div>
+    <div class="footer-section">
+      <h2 class="titles">Pages</h2>
+      <div class="pages-list">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Price & Plan</a></li>
+          <li><a href="#">Case Study</a></li>
+          <li><a href="#">404 Page</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Our Terms</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Membership</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Software Solution</li>
+        <li>Digital Marketing</li>
+        <li>UI & UX Design</li>
+        <li>Web Development</li>
+        <li>24/7 Online Support</li>
+      </ul>
+    </div>
+    <div class="availability">
+      <h2>Our Availability</h2>
+      <div class="time">Mon - Fri<br> <span> 10:00 am to 06:00 pm </span> </div>
+      <div class="time">Saturday (1st & 4th)<br> <span> 08:00 am to 04:00 pm </span> </div>
+      <div class="emergency">
+        <img src="https://eurtech-react.vercel.app/assets/img/icon/footet/massege.png" alt="logo">
+        <p>Emergency Service<br> 000 111 222 33</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-adjust py-4">
+    <nav class="footer-navbar">
+      <div class="footer-logo">
+        <img src="https://eurtech-react.vercel.app/assets/img/logo/logo-2.png" alt="Logo">
+      </div>
+      <div class="footer-nav-links">
+        <a href="#">ABOUT</a>
+        <a href="#">FAQ</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="nav-adjust">
+    <div class="copyright">
+      <p>Copyright & design by <span> @Tanishq Raj </span> - 2024 </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
